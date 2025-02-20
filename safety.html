@@ -224,12 +224,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/1.3.0/jquery.scrollmagic.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/1.3.0/jquery.scrollmagic.debug.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/ScrollToPlugin.min.js"></script>
-  <script src="http://stickyjs.com/jquery.sticky.js"></script>
+
   <script>
-    if (top.location.pathname === '/'){
+
     $(function() {
-    // Init Sticky Nav Controller  
-    $(document).ready(function(){$("#sustain-secondary-nav").sticky({topSpacing:64});});  
     // Init ScrollMagic Controller
     var scrollMagicController = new ScrollMagic ();
     // Logo Create Animation for 0.5s
@@ -263,7 +261,7 @@
     TweenMax.to(this, 0.5, {backgroundColor:"#e0dfe0", scaleX: 1.1, scaleY: 1.1, color:"#000"})}
     function out(){
     TweenMax.to(this, 0.5, {backgroundColor:"#ee3128", scaleX: 1.0, scaleY: 1.0, color:"#FFF"})}
-    }
+   
     //Hero button GREEN hover animation
     $("#green-learn-more-body").hover(over, out);
     function over(){

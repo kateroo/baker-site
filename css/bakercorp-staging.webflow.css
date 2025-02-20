@@ -408,7 +408,6 @@ p {
   background-image: url('../images/sustain-banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .sustain-hero-contents {
